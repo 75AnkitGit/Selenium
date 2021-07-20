@@ -8,8 +8,15 @@
     <artifactId>selenium-java</artifactId>
     <version>4.0.0-beta-4</version>
 </dependency>
+  <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.8.7</version>
+</dependency>
   
   </dependencies>
+  
   <artifactId>Selenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 </project>
