@@ -10,7 +10,7 @@ public class JavaScriptClick {
 
 	public static void main(String[] args) throws InterruptedException {
 		String url="http://www.seleniumframework.com/Practiceform/";
-		System.setProperty("webdriver.chrome.driver", "D:\\Automation Eclipse\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\\\Automation Eclipse\\\\Selenium\\\\Driver\\\\chromedriver.exe");
 		WebDriver driver;
 		driver=new ChromeDriver();
 		driver.navigate().to(url);
@@ -22,6 +22,7 @@ public class JavaScriptClick {
 		WebElement element=driver.findElement(By.xpath("//input[@value='Subscribe']"));
 		Thread.sleep(5000);
 		js.executeScript("arguments[0].click();", element);
+		System.out.println(driver.getPageSource());
 		
 		Thread.sleep(5000);
 		driver.close();

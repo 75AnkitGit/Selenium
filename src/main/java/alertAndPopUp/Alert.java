@@ -11,7 +11,7 @@ public class Alert {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws InterruptedException {
 		String url="http://demo.guru99.com/popup.php";
-		System.setProperty("webdriver.chrome.driver", "D:\\Automation Eclipse\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Automation Eclipse\\Selenium\\Driver\\chromedriver.exe");
 		WebDriver driver;
 		driver=new ChromeDriver();
 		driver.navigate().to(url);

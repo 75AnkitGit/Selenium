@@ -10,7 +10,7 @@ public class JavaScriptSend {
 
 	public static void main(String[] args) throws InterruptedException {
 		String url="http://www.seleniumframework.com/Practiceform/";
-		System.setProperty("webdriver.chrome.driver", "D:\\Automation Eclipse\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\\\Automation Eclipse\\\\Selenium\\\\Driver\\\\chromedriver.exe");
 		WebDriver driver;
 		driver=new ChromeDriver();
 		driver.navigate().to(url);
