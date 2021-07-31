@@ -18,7 +18,7 @@ public class ActionMouseHover {
 		Actions act=new Actions(driver);
 		Thread.sleep(5000);
 		WebElement menuOption = driver.findElement(By.xpath(".//div[contains(text(),'Music')]"));
-		
+		int j=0;
 		act.moveToElement(menuOption).build().perform();
 		Thread.sleep(5000);
 		driver.close();
