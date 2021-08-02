@@ -12,7 +12,8 @@ public class Seleniumgrid {
 	WebDriver driver;
     String baseURL, nodeURL;
 
-    @BeforeTest
+    @SuppressWarnings("deprecation")
+	@BeforeTest
     public void setUp() throws MalformedURLException {
         baseURL = "http://demo.guru99.com/test/guru99home/";
         nodeURL = "http://192.168.43.223:4444/wd/hub";
