@@ -1,4 +1,4 @@
-package alertAndPopUp;
+package alertAndCheckBox;
 
 public class SleniumTest {
 

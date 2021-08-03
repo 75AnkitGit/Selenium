@@ -1,4 +1,4 @@
-package alertAndPopUp;
+package alertAndCheckBox;
 
 import java.util.List;
 import java.util.Set;
